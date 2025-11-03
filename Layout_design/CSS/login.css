@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 1px solid #000;
+    width: 80%;
+    min-height: 250px;
+    margin: auto;
+}
+.container .header
+{
+    background-color: aquamarine;
+    padding: 8px;
+    width: 100%;
+    height: 55px;
+}
+.header h1
+{
+    text-align: center;
+}
