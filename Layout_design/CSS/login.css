@@ -51,7 +51,7 @@ body
 .container .menu ul li a:hover
 {
     background-color: aliceblue;
-    color: #000;
+    color: #4f4646;
     border-radius: 15px;
 }
 .container .form-data
@@ -88,6 +88,7 @@ body
 .container .form-data input[type="password"], input[type = "email"]{
     width: 100%;
     height: 40px;
+    border: 1px solid #56595a;
 }
 .form-data button
 {

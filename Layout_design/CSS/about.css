@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    border: 1px solid #000;
+    padding: 4px;
+    width: 100%;
+   height: 500px;
+}
+.container .header
+{
+    width: 100%;
+    height: 70px;
+    padding: 5px;
+    display: flex;
+}
+.container .header .headerName .headerLogo
+{
+    width: 10%;
+    margin: auto;
+    margin-left: 5%;
+}
+.container .header .headerName
+{
+    border: 1px solid #000;
+    width: 40%;
+    padding: 5px;
+    display: flex;
+}
+.container .header .headerMenu
+{
+    border: 1px solid #000;
+    width: 60%;
+    padding: 8px;
+}
+.container .header .headerMenu li
+{
+    
+    display: inline-block;
+    padding: 5px;
+}
+.container .header .headerMenu li a
+{
+    font-size: 25px;
+    text-decoration: none;
+    padding: 7px;
+    color: rgb(0, 68, 255);
+    border-radius: 2px;
+    margin-left: 85px;
+}
+
+.container .header .headerMenu li a:hover{
+    background-color: rgb(234, 234, 184);
+    border-radius: 3px;
+}
+.container .content
+{
+    padding: 5px;
+    border: 1px solid #000;
+    height: 250px;
+    margin: 4px;
+}
+.container .content h1
+{
+    color: rgb(207, 188, 164);
+    font-size: 50px;
+    margin-left: 700px;
+    margin-top: 15px;
+}
