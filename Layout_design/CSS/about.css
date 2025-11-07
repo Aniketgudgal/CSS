@@ -8,7 +8,7 @@
     border: 1px solid #000;
     padding: 4px;
     width: 100%;
-   height: 500px;
+    min-height: 400px;
 }
 .container .header
 {
@@ -49,18 +49,18 @@
     padding: 7px;
     color: rgb(0, 68, 255);
     border-radius: 2px;
-    margin-left: 85px;
+    margin-left: 15px;
 }
 
 .container .header .headerMenu li a:hover{
-    background-color: rgb(234, 234, 184);
+    background-color: rgb(125, 125, 120);
     border-radius: 3px;
+    border-radius: 12px;
 }
 .container .content
 {
     padding: 5px;
     border: 1px solid #000;
-    height: 250px;
     margin: 4px;
 }
 .container .content h1
@@ -69,4 +69,22 @@
     font-size: 50px;
     margin-left: 700px;
     margin-top: 15px;
+}
+.container .footer
+{
+    border: 1px solid #000;
+    margin: 4px;
+    padding: 8px;
+    padding: 8px;
+}
+.container .footer h1
+{
+    font-size: 40px;
+    text-align: center;
+}
+.container .content img
+{
+    width: 10%;
+    height: 20%;
+    margin-left: 125px;
 }
