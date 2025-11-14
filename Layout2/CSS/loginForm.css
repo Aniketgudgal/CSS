@@ -5,19 +5,20 @@
 }
 .container{
     padding: 4px;
-    width: 80%;
+    width: 100%;
     min-height: 980px;
     border: 1px solid #000;
     margin: auto;
-    background-color: rgb(167, 122, 209);
+    background-color: rgb(19, 70, 239);
 }
 .container .form-data
 {
     width: 50%;
-    min-height: 500px;
+    min-height: 480px;
     border: 1px solid #000;
     margin: auto;
     background-color: white;
+    margin-top: 230px;
 }
 .container .form-data h2
 {
@@ -62,6 +63,7 @@
 {
     width: 100%;
     padding: 10px;
+    margin: 10px;
 }
 .form-data .table-data table tr td a{
     text-decoration: none;
@@ -75,6 +77,18 @@
 {
     font-size: 25px;
     width: 100%;
+    min-height: 50px;
     color: white;
     background-color: rgb(95, 142, 145);
+}
+.sign-up
+{
+    width: 100%;
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 25px;
+}
+.sign-up a{
+    text-decoration: none;
 }
