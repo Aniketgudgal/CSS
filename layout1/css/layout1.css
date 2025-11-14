@@ -45,6 +45,7 @@
 {
     display:inline-block;
     margin-right: 35px;
+ 
     padding: 5px;
 }
 .header-menu ul{
@@ -184,12 +185,10 @@
     line-height: 30px;
 }
 .product{
-    background-color: #52796f;
     min-height: 250px;
     width:30%;
-   background-color: #0F254E;
+   /* background-color: #0F254E; */
     float: left;
-    text-align: center;
 }
 .product h1{
     color: white;
@@ -197,9 +196,14 @@
     font-size: 37px;  
     text-align: center;
 }
+.product ul{
+    padding:10px
+}
 .Company{
    width:30%
-   text-align: center;   
+   /* text-align: center;    */
+    float: right;
+    border:1px solid black;
 }
 .Company h1{
     color: white;

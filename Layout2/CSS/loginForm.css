@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 4px;
+    width: 80%;
+    min-height: 980px;
+    border: 1px solid #000;
+    margin: auto;
+    background-color: rgb(167, 122, 209);
+}
+.container .form-data
+{
+    width: 50%;
+    min-height: 500px;
+    border: 1px solid #000;
+    margin: auto;
+    background-color: white;
+}
+.container .form-data h2
+{
+    font-size: 50px;
+    margin-top: 8px;
+    text-align: center;
+    font-weight: 500;
+}
+.form-data .table-data
+{
+    width: 90%;
+    min-height: 200px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 8px;
+}
+
+.form-data .table-data table
+{
+    margin: auto;
+    width: 100%;
+    min-height: 100px;
+    border-collapse: collapse;
+}
+.form-data .table-data table, tr, td
+{
+     width: 100%;
+}
+.form-data .table-data td
+{
+    min-height: 100px;
+    margin: 5px;
+}
+.form-data .table-data table tr td label
+{
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.form-data .table-data table tr td input[type="email"], input[type="password"]
+{
+    width: 100%;
+    padding: 10px;
+}
+.form-data .table-data table tr td a{
+    text-decoration: none;
+    font-size: 25px
+}
+.container .form-data .table-data .login-button
+{
+    margin-top: 50px;
+}
+.container .form-data .table-data .login-button button
+{
+    font-size: 25px;
+    width: 100%;
+    color: white;
+    background-color: rgb(95, 142, 145);
+}

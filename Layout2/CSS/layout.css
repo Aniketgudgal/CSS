@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 60%;
+    min-height: 150px;
+    border: 1px solid #000;
+    margin: auto;
+    padding: 8px;
+    background-color: rgb(113, 113, 113);
+}
+.container h2
+{
+    text-align: center;
+}
+.container .header
+{
+    border: 1px solid #000;
+    width: 100%;
+    min-height: 50px;
+    padding: 8px;
+    background-color: rgb(180, 179, 179);
+}
+.container .header .nav
+{
+    margin-top: 5px;
+    background-color: white;
+    min-height: 35px;
+}
+
+.container .header h3
+{
+    text-align: center;
+}
+.container .header .nav
+{
+    border: 1px solid #000;
+}
+.section-container 
+{
+    width: 100%;
+    min-height: 800px;
+    margin-top: 5px;
+}
+.section-container .section-1
+{
+    width: 15%;
+    min-height: 800px;
+    padding: 5px;
+    border: 1px solid #000;
+     background-color: rgb(180, 179, 179);
+    float: left;
+}
+.section-1 .section1-header
+{
+    width: 80%;
+    min-height: 50px;
+    margin: auto;
+    background-color: white;
+    margin-top: 15px;
+    border: 1px solid #000;
+}
+.section-1 .section1-header h4
+{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.section-container .section-1 h3
+{
+    text-align: center;
+}
+.section-container .section-1 .section1-nav
+{
+    width: 80%;
+    min-height: 635px;
+    margin: auto;
+    border: 1px solid #000;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.section-container .section-1 .section1-nav h3
+{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 150px;
+}
+.container .section-1 .section1-footer
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    min-height: 40px;
+    margin-bottom: 7px;
+    background-color: white;
+    border: 1px solid #000;
+}
+.container .section-1 .section1-footer h3
+{
+    text-align: center;
+    margin-top: 10px;
+}
+.section-container .section-2
+{
+    float: right;
+    width: 84%;
+    border: 1px solid #000;
+    min-height: 800px;
+     background-color: rgb(180, 179, 179);
+}
+
+.section-container .section-2 h3
+{
+    text-align: center;
+    font-size: 25px;
+}
+.section-container .section-2 .section2-header
+{
+    width: 95%;
+    min-height: 50px;
+    margin: auto;
+    border: 1px solid #000;
+    background-color: white;
+}
+.section-container .section-2 .section2-header h3
+{
+    text-align: center;
+}
+.section-container .section-2 .section2-article
+{
+    width: 95%;
+    min-height: 150px;
+    border: 1px solid #000;
+    margin: auto;
+    margin-top: 8px;
+}
+.container .section-container .section-2 .article1-header
+{
+    width: 95%;
+    min-width: 40px;
+    border: 1px solid #000;
+    margin: auto;
+    padding: 4px;
+    margin-top: 7px;
+    background-color: white;
+}
+.section-2 .section2-article .p1-div
+{
+     width: 95%;
+    min-width: 50px;
+    border: 1px solid #000;
+    background-color: white;
+    margin: auto;
+    margin-top: 7px;
+}
+.section-2 .section2-article .p1-div p{
+    text-align: center;
+    font-size: 25px;
+    background-color: white;
+    font-weight: bold;
+    padding: 4px;
+}
+.section-2 .section2-article .p2-div
+{
+     width: 95%;
+    min-width: 50px;
+    border: 1px solid #000;
+    margin: auto;
+    margin-top: 7px;
+    background-color: white;
+}
+.section-2 .section2-article .p2-div p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 4px;
+}
+.section-2 .section2-article .article1-footer
+{
+      width: 95%;
+    min-width: 50px;
+    border: 1px solid #000;
+    margin: auto;
+    margin-top: 7px;
+    background-color: white;
+    margin-bottom: 8px;
+}
+.section-2 .section2-article2
+{
+    width: 95%;
+    min-height: 150px;
+    border: 1px solid #000;
+    margin: auto;
+    margin-top: 12px;
+}
+.section-2 .section2-article2 .article2-header
+{
+    width: 95%;
+    min-height: 50px;
+    border: 1px solid #000;
+    margin: auto;
+    margin-top: 7px;
+    background-color: white;
+}
+
+.section-2 .section2-article2 .article2-contect
+{
+    width: 95%;
+    min-height: 250px;
+    margin: auto;
+    margin-top: 7px;
+}
+.section-2 .section2-article2 .article2-contect .article2-p
+{
+    width: 69%;
+    min-height: 250px;
+    border: 1px solid #000;
+    background-color: white;
+    float: left;
+}
+.section-2 .section2-article2 .article2-contect .article2-p p{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.section-2 .section2-article2 .article2-contect .article2-aside
+{
+    width: 29%;
+    min-height: 250px;
+    border: 1px solid #000;
+    float: right;
+    background-color: white;
+}
+
+.section-2 .section2-article2 .article2-contect .article2-aside h3
+{
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+.section-2 .section2-article2 .article2-footer
+{
+      width: 95%;
+    min-width: 50px;
+    border: 1px solid #000;
+    margin: auto;
+    margin-top: 10px;
+    background-color: white;
+    margin-bottom: 8px;
+}
+.section-2 .section2-article2 .article2-footer h3
+{
+    text-align: center;
+    margin-top: 5px;
+}
+.section-2 .section2-footer
+{
+    width: 95%;
+    min-height: 55px;
+    border: 1px solid #000;
+    margin: auto;
+    margin-top: 15px;
+    background-color: white;
+}
+.section-2 .section2-footer h3
+{
+    text-align: center;
+    margin-top: 13px;
+}
+.container .footer
+{
+    width: 100%;
+    min-height: 60px;
+    margin: auto;
+    border: 1px solid #000;
+    margin-top: 20px;
+     background-color: rgb(180, 179, 179);
+}
