@@ -5,7 +5,7 @@
 }
 .container{
     border:1px solid black;
-    width: 80%;
+    width: 100%;
     /* width: 100%; */
     min-height: 800px;
     background-attachment: fixed;
@@ -161,7 +161,6 @@
     width: 100%;
     min-height: 250px;
     background-color: #0F254E;
-    border:1px solid black;
     margin-top: 10px;
 }
 .footer-company-info{
@@ -197,17 +196,25 @@
     text-align: center;
 }
 .product ul{
-    padding:10px
+    padding:10px;
+    margin: auto;
+}
+.product ul li{
+    padding: 4px;
+    margin-left: px;
+    list-style: none;
+    font-size: 20px;
+    margin-left: 150px;
 }
 .Company{
    width:30%
    /* text-align: center;    */
     float: right;
-    border:1px solid black;
+
 }
 .Company h1{
     color: white;
     margin-top: 25px; 
-    font-size: 37px;
+    font-size: 40px;
     text-align: center;
 }
