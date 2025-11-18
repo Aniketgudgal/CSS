@@ -135,6 +135,7 @@
     width: 95%;
     min-height: 150px;
     border: 1px solid #000;
+    background-color: rgb(217, 216, 216);
     margin: auto;
     margin-top: 8px;
 }
@@ -194,6 +195,7 @@
     width: 95%;
     min-height: 150px;
     border: 1px solid #000;
+     background-color: rgb(217, 216, 216);
     margin: auto;
     margin-top: 12px;
 }
