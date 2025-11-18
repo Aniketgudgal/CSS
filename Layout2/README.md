@@ -7,10 +7,10 @@ This folder contains the HTML pages for Layout 2:
 
 Screenshots
 - Layout (homepage / main layout):
-  ![Layout preview](img/layout2-main.png)
+  ![Layout preview](../Layout2/img/layout.png)
 
 - Login form:
-  ![Login form preview](img/layout2-login.png)
+  ![Login form preview](../Layout2/img/login_form.png)
 
 Notes
 - Ensure any referenced CSS, JS, and image assets are placed relative to the Layout2 folder as used in the HTML files.
