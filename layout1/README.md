@@ -1,6 +1,6 @@
 # IoT Solutions — Layout 1
 
-![IoT solutions preview](img/layout1.png)
+![IoT solutions preview](img/main-img-1.png)
 
 This repository contains the homepage template I created for an IoT Solutions site using "Layout 1". The design focuses on product and feature highlights with a clear visual hierarchy: a full-width header, prominent hero with CTA, a features grid/cards section, and a concise footer. It's suited for showcasing devices, integrations, and solution briefs.
 
