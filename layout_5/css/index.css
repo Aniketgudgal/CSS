@@ -632,3 +632,57 @@ margin: auto;
     /* border: 1px solid #000; */
 
 }
+.container .content .courses-content .explore-courses{
+    width: 100%;
+    min-height: 800px;
+    /* border: 1px solid #000; */
+    margin-top: 45px;
+}
+.container .content .courses-content .explore-courses .explore-courses-title{
+    width: 100%;
+    min-height: 60px;
+    /* border: 1px solid #000; */
+    padding: 6px;
+}
+.container .content .courses-content .explore-courses .explore-courses-title h1{
+    margin-left: 3px;
+}
+.container .content .courses-content .explore-courses .explore-courses-list{
+    width: 100%;
+    min-height: 500px;
+    border: 1px solid #000;
+}
+.container .content .courses-content .explore-courses .explore-courses-list .explore-1
+{
+    width: 100%;
+    min-height: 200px;
+    /* border: 1px solid #000; */
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin: auto;
+}
+.container .content .courses-content .explore-courses .explore-courses-list .box{
+    width: 48%;
+    height: 200px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.container .content .courses-content .explore-courses .explore-courses-list .box a{
+    width: 100%;
+    min-height: 200px;
+    margin: auto;
+    position: relative;
+}
+.container .content .courses-content .explore-courses .explore-courses-list .box span{
+    font-size: 35px;
+    text-align: center;
+    margin-left: 5px;
+    /* position: absolute; */
+    font-weight: 600;
+}
