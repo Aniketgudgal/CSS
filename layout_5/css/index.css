@@ -650,7 +650,7 @@ margin: auto;
 .container .content .courses-content .explore-courses .explore-courses-list{
     width: 100%;
     min-height: 500px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
 }
 .container .content .courses-content .explore-courses .explore-courses-list .explore-1
 {
@@ -667,22 +667,113 @@ margin: auto;
     width: 48%;
     height: 200px;
     border-radius: 20px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+    position: relative;
+     text-align: center;
+
+     margin-top: 8px;
 }
 .container .content .courses-content .explore-courses .explore-courses-list .box a{
     width: 100%;
     min-height: 200px;
     margin: auto;
-    position: relative;
+    text-decoration: none;
 }
 .container .content .courses-content .explore-courses .explore-courses-list .box span{
     font-size: 35px;
     text-align: center;
-    margin-left: 5px;
+    margin: auto;
     /* position: absolute; */
     font-weight: 600;
+    margin-left: 15px;
+    color: white;
+}
+.container .content .courses-content .explore-courses .explore-courses-list .box button
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    border: none;
+    color: black;
+    
+     /* background-image: linear-gradient(to right, #405E9D, #7795D4); */
+    
+}
+.container .content .courses-content .explore-courses .explore-courses-list .box button span
+{
+    font-size: 25px;
+    color: black;
+}
+.container .content .courses-content .explore-courses .explore-courses-list .box button span:hover
+{
+    background-color: white;
+    color: green;
+      border-radius: 50px;
+}
+.container .content .courses-content .explore-courses .explore-courses-list .box button:hover
+{
+    background-color: white;
+    color: green;
+}
+.container .content .courses-content .explore-courses .explore-courses-list .box button span
+{
+    font-weight: 200;
+
+}
+#box-1{
+ background-image: linear-gradient(to right, #405E9D, #7795D4);
+}
+#box-2{
+     background-image: linear-gradient(to right, #AB5F5F, #E49898);
+}
+#box-3{
+       background-image: linear-gradient(to right, #5F8964, #95C09B);
+}
+#box-4{
+       background-image: linear-gradient(to right, #806EAB, #B7A5E2);
+}
+
+#box-5{
+       background-image: linear-gradient(to right, #BC874E, #F4BF86);
+}
+#box-6{
+       background-image: linear-gradient(to right, #AC6A81, #DF9DB4);
+}
+#box-7{
+       background-image: linear-gradient(to right, #5EA0A4, #96D8DC);
+}
+#box-8{
+       background-image: linear-gradient(to right, #ABA35D, #E3DB95);
+}
+#box-9{
+       background-image: linear-gradient(to right, #707785, #A5ACBA);
+}
+#box-10{
+       background-image: linear-gradient(to right, #9F6060, #D99A9A);
+}
+#box-11{
+       background-image: linear-gradient(to right, #606EAB, #9AA8E5);
+}
+#box-12{
+       background-image: linear-gradient(to right, #63AB73, #9BE3AB);
+}
+#box-13{
+       background-image: linear-gradient(to right, #706EAB, #AAA8E5);
+}
+#box-14{
+       background-image: linear-gradient(to right, #AB6464, #E59E9E);
 }
