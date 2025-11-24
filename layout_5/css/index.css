@@ -17,6 +17,7 @@
     position: sticky;
     background-color: white;
     top:0px;
+    z-index: 1;
 }
 .header-top{
     width: 100%;
@@ -544,6 +545,7 @@ margin: auto;
     /* border: 1px solid #000; */
     margin-top: 25px;
     padding: 5px;
+    z-index: -1;
 }
 .container .content .courses-content .explore .explore-title
 {
