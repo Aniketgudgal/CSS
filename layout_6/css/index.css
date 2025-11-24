@@ -287,3 +287,41 @@ body{
     background-color: orange;
     color: black;
 }
+.option-text span{
+    color: white;
+    font-size: 35px;
+}
+.option-text span a{
+    color: orange;
+    text-decoration: none;
+}
+#withlogin{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.option-option{
+    width: 90%;
+    min-height: 80px;
+    /* border: 1px solid white; */
+    margin: auto;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.option-option span
+{
+    color: white;
+    font-size: 30px;
+}
+.box{
+    width: 60px;
+    height: 60px;
+    border: 2px solid white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: flex;
+    justify-content: center;}
