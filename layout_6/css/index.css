@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(../img/backgroundImage.webp);
+    background-image: url(../img/img2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -18,7 +18,7 @@ body{
 {
     width: 100%;
     min-height: 50px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     display: flex;
     align-items: center;
     gap: 5px;
@@ -158,14 +158,17 @@ body{
 .container .content .content-list{
     width: 55%;
     min-height: 800px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     padding: 5px;
 }
 .container .content .content-list h1{
-    font-size: 50px;
+    font-size: 70px;
     color: white;
     margin-left: 4px;
     margin-top: 45px;
+}
+.container .content .content-list span{
+    color: orange;
 }
 .container .content .content-list p{
     font-size: 28px;
@@ -202,18 +205,23 @@ body{
 .container .content .content-login{
     width: 40%;
     min-height: 100px;
-    border: 1px solid white;
-    padding: 5px;
+    /*border: 1px solid white;
+    */padding: 5px;
 }
 .container .content .content-login .login-form
 {
-    width: 80%;
+    width: 60%;
     min-height: 500px;
     border: 1px solid white;
-    background-color: black;
+    background-color: rgb(31, 29, 29);
     justify-content: center;
     text-align: center;
     margin: auto;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
 }
 .container .content .content-login .login-form button
 {
