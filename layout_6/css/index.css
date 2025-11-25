@@ -309,7 +309,7 @@ body{
     justify-content: center;
     gap: 15px;
 }
-span{
+.login-form span{
     color: white;
     font-size: 25px;
 }
