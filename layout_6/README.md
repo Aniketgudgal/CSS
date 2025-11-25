@@ -6,7 +6,7 @@ A lightweight HTML & CSS template for a landing page featuring a header navigati
 
 ## 👀 Preview
 
-<!-- ![Page Preview](./img/pagesimage.png) -->
+![Page Preview](./img/pagesimage.png)
 
 ---
 
