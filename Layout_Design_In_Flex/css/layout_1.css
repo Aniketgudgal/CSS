@@ -12,7 +12,7 @@ body{
     flex-direction: column;
     width: 80%;
     min-height: 600px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     margin: auto;
     padding: 5px;
 }
@@ -21,14 +21,16 @@ body{
     flex-direction: row;
     width: 100%;
     min-height: 200px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .flex-start-p{
     display: flex;
     flex-direction: column;
     flex-basis: 45%;
     min-height: 50px;
+    flex-wrap: wrap;
     gap: 14px;
 }
 .flex-start-p .name
@@ -38,14 +40,16 @@ body{
     flex-direction: row;
     min-height: 30px;
     align-items: center;
+    flex-wrap: wrap;
   
 }
 .flex-start-p .content{
     width: 100%;
     min-height: 200px;
-    border: 1px solid #514d4d;
+    border: 1px dashed #514d4d;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: flex-start;
 }
 
@@ -56,6 +60,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     gap: 5px;
+    flex-wrap: wrap;
 }
 .flex-start-p .content .row1 .div-1{
     width: 20%;
@@ -83,6 +88,7 @@ body{
     height: 50px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     gap: 5px;
 }
@@ -136,6 +142,7 @@ body{
     flex-basis: 48%;
     min-height: 80px;
     gap: 14px;
+    flex-wrap: wrap;
 }
 .flex-end-p .name
 {
@@ -144,6 +151,7 @@ body{
     flex-direction: row;
     min-height: 30px;
     align-items: center;
+    flex-wrap: wrap;
 }
 .flex-end-p .content{
     width: 100%;
@@ -152,7 +160,8 @@ body{
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
-    border: 1px solid #000;
+    border: 1px dashed #000;
+    flex-wrap: wrap;
 }
 /* next end start */
 .flex-end-p .content .row1{
@@ -161,7 +170,8 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 5px;
+    flex-wrap: wrap;
+    /* gap: 5px; */
 }
 .flex-end-p .content .row1 .div-1{
     width: 20%;
@@ -189,7 +199,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 5px;
+    /* gap: 5px; */
 }
 .flex-end-p .content .row2 .div-1{
     width: 23%;
@@ -216,7 +226,7 @@ body{
    height: 50px;
     display: flex;
     flex-direction: row;
-    gap: 8px;
+    /* gap: 8px; */
 }
 .flex-end-p .content .row3 .div-1{
     width: 20%;
@@ -240,9 +250,10 @@ end here */
 .second{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     min-height: 200px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     justify-content: space-between;
 }
 .second .flex-start-p .content{
@@ -250,9 +261,10 @@ end here */
     min-height: 200px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    border: 1px solid #000;
+    border: 1px dashed #000;
 }
 .second .flex-end-p .content{
     width: 100%;
@@ -260,10 +272,36 @@ end here */
     display: flex;
     flex-direction: column;
     justify-content: stretch;
+    flex-grow: 1;
+    flex-wrap: wrap;
     align-items: stretch;
-    border: 1px solid #000;
+    border: 1px dashed #000;
 }
-.second .flex-end-p .content .row1 .row2 .row3{
-    justify-content: stretch;
-    align-items: stretch;
+
+.third{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 200px;
+    /* border: 1px solid #000; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.third .flex-start-p .content{
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px dashed #000;
+    flex-wrap: wrap;
+}
+.third .flex-end-p .content{
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px dashed #000;
+    flex-wrap: wrap;
 }
