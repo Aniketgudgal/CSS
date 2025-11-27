@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    min-height: 500px;
+    margin: auto;
+    border: 1px solid #000;
+    justify-content: center;
+}
+
+
+.end{
+    margin-top: 50px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    justify-content: stretch;
+}
+.end .end1{
+    flex-basis: 100%;
+    border: 1px solid #000;
+    height: 30px;
+}
+.end .end2{
+    flex-basis: 100%;
+    border: 1px solid #000;
+    height: 30px;
+}
+.end .end3{
+    flex-basis: 100%;
+    border: 1px solid #000;
+    height: 30px;
+}

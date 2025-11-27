@@ -51,11 +51,12 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-start;
+    gap: 20px;
 }
 
 .flex-start-p .content .row1{
     width: 100%;
-    height: 50px;
+    height: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -64,28 +65,28 @@ body{
 }
 .flex-start-p .content .row1 .div-1{
     width: 20%;
-    height: 30px;
+    height: 100%;
     background-color: blue;
 }
 .flex-start-p .content .row1 .div-2{
     width: 7%;
-    height: 30px;
+    height: 100%px;
     background-color: blue;
 }
 .flex-start-p .content .row1 .div-3{
     width: 20%;
-    height: 30px;
+    height: 100%;
     background-color: blue;
 }
 .flex-start-p .content .row1 .div-4{
     width: 40%;
-    height: 30px;
+    height: 100%;
     background-color: blue;
 }
 
 .flex-start-p .content .row2{
     width: 100%;
-    height: 50px;
+    height: 30px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -94,44 +95,44 @@ body{
 }
 .flex-start-p .content .row2 .div-1{
     width: 23%;
-    height: 30px;
+    height: 100%;
     background-color: blue;
 }
 .flex-start-p .content .row2 .div-2{
     width: 7%;
-    height: 30px;
+    height: 100%;
     background-color: blue;
 }
 .flex-start-p .content .row2 .div-3{
     width: 15%;
-    height: 30px;
+    height: 100%;
     background-color: blue;
 }
 .flex-start-p .content .row2 .div-4{
     width: 45%;
-    height: 30px;
+    height: 100%;
     background-color: blue;
 }
 .flex-start-p .content .row3{
     width: 100%;
-   height: 50px;
+   height: 30px;
     display: flex;
     flex-direction: row;
-    gap: 8px;
+   
 }
 .flex-start-p .content .row3 .div-1{
     width: 20%;
-    height: 30px;
+    height: 100%;
     background-color: blue;
 }
 .flex-start-p .content .row3 .div-2{
     width: 7%;
-    height: 30px;
+    height: 100%;
     background-color: blue;
 }
 .flex-start-p .content .row3 .div-3{
     width: 20%;
-    height: 30px;
+    height: 100%;
     background-color: blue;
 }
 
@@ -153,94 +154,97 @@ body{
     align-items: center;
     flex-wrap: wrap;
 }
-.flex-end-p .content{
+.first .flex-end-p .content{
     width: 100%;
     min-height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    align-items: flex-end;
     border: 1px dashed #000;
     flex-wrap: wrap;
+    gap: 20px;
 }
 /* next end start */
 .flex-end-p .content .row1{
     width: 100%;
-    height: 50px;
+    height: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-end;
     flex-wrap: wrap;
     /* gap: 5px; */
 }
 .flex-end-p .content .row1 .div-1{
     width: 20%;
-    height: 30px;
+    height: 100%;
     background-color: blue;
 }
 .flex-end-p .content .row1 .div-2{
     width: 7%;
-    height: 30px;
+    height: 100%;
     background-color: blue;
 }
 .flex-end-p .content .row1 .div-3{
     width: 20%;
-    height: 30px;
+    height: 100%;
     background-color: blue;
 }
 .flex-end-p .content .row1 .div-4{
     width: 40%;
-    height: 30px;
+    height: 100%;
     background-color: blue;
 }
 .flex-end-p .content .row2{
     width: 100%;
-    height: 50px;
+    height: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: self-end;
     /* gap: 5px; */
 }
 .flex-end-p .content .row2 .div-1{
     width: 23%;
-    height: 30px;
+    height: 100%;
     background-color: blue;
 }
 .flex-end-p .content .row2 .div-2{
     width: 7%;
-    height: 30px;
+    height: 100%;
     background-color: blue;
 }
 .flex-end-p .content .row2 .div-3{
     width: 15%;
-    height: 30px;
+    height: 100%;
     background-color: blue;
 }
 .flex-end-p .content .row2 .div-4{
     width: 45%;
-    height: 30px;
+    height: 100%;
     background-color: blue;
 }
 .flex-end-p .content .row3{
     width: 100%;
-   height: 50px;
+   height: 30px;
     display: flex;
     flex-direction: row;
+    align-items: flex-end;
     /* gap: 8px; */
 }
 .flex-end-p .content .row3 .div-1{
     width: 20%;
-    height: 30px;
+    height: 100%;
     background-color: blue;
 }
 .flex-end-p .content .row3 .div-2{
     width: 7%;
-    height: 30px;
+    height: 100%;
     background-color: blue;
 }
 .flex-end-p .content .row3 .div-3{
     width: 20%;
-    height: 30px;
+    height: 100%;
     background-color: blue;
 }
 /* 
@@ -267,15 +271,15 @@ end here */
     border: 1px dashed #000;
 }
 .second .flex-end-p .content{
-    width: 100%;
+     width: 100%;
     min-height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: stretch;
-    flex-grow: 1;
-    flex-wrap: wrap;
-    align-items: stretch;
     border: 1px dashed #000;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .third{
