@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  min-height: 500px;
+  background-color: blue;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1vr);
+  grid-template-rows: 1.875em 4.375em 45em auto 4.125em;
+  grid-template-areas:
+    "title"
+    "header"
+    "slider"
+    "contactus"
+    "footer";
+}
+.title {
+  background: blue;
+  grid-area: title;
+  text-align: center;
+}
+.title h2 {
+  color: white;
+  font-weight: 100;
+  font-size: 1.4em;
+  font-size: 20px;
+  text-align: center;
+}
+.header {
+  background-color: slategray;
+  grid-area: header;
+}
+.slider {
+  background-color: lightblue;
+  grid-area: slider;
+  background-image: url("./imaa.jpg");
+  background-position: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contactus {
+  background-color: blue;
+  grid-area: contactus;
+  display: grid;
+  grid-template-columns: repeat(2, 450px);
+  grid-template-rows: auto;
+  grid-template-areas: "office contact";
+  padding: 1.3em;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  gap: 10px;
+  height: 100vh;
+}
+.contactus .office {
+  grid-area: office;
+  background-color: white;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  padding: 1.5em;
+  /* width: 400px; */
+  height: 100%;
+}
+
+.contactus .office table h1{
+   text-align: center;
+ 
+}
+.contactus .office table{
+    width: 100%;
+    height: 80%;
+    border-collapse: separate;
+
+}
+.contactus .office table tr, td{
+ /* padding: 8px; */
+ /* border: 1px solid #000; */
+}
+.contactus .office table tr td span
+{
+    font-weight: bold;
+
+}
+.contactus .contact {
+  grid-area: contact;
+  background-color: white;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  padding: 1.5em;
+  /* width: 400px; */
+  height: 100%;
+}
+.contactus .contact h1{
+    align-items: center;
+}
+.contactus .contact table{
+    width: 100%;
+    /* border: 1px solid #000; */
+    border-collapse: collapse;
+    height: 95%;
+}
+.contactus .contact table tr,td{
+   font-size: 25px;
+}
+.contactus .contact table tr td input[type="email"], input[type="number"], input[type="text"]
+{
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+.contactus .contact table tr td  input[type="checkbox"]{
+   width: 20px;
+   height: 25px;
+}
+.contactus .contact table tr td label{
+    font-size: 20px;
+    margin-left: 0.2em;
+}
+.contactus .contact table tr td a{
+    text-decoration: none;
+}
+.contactus .contact table tr td button
+{
+    width: 100%;
+    height: 2.5em;
+    border-radius: 1.2em;
+    -webkit-border-radius: 1.2em;
+    -moz-border-radius: 1.2em;
+    -ms-border-radius: 1.2em;
+    -o-border-radius: 1.2em;
+    font-size: 1.2em;
+    background-color: #3158F8;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+.contactus .contact table tr td button:hover
+{
+    background-color: black;
+    color: white;
+    outline: none;
+}
+.contactus .contact table tr td input[type="email"]::placeholder, input[type="number"]::placeholder, input[type="text"]::placeholder
+{
+    font-size: 1.2em;
+}
+.footer {
+  background-color: black;
+  grid-area: footer;
+}
