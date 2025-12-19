@@ -1,0 +1,740 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  min-height: 150px;
+  /* border: 1px solid #000; */
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto 95vh 250px auto auto auto auto auto 150px 80px;
+  grid-template-areas:
+    "header"
+    "slider"
+    "product-details"
+    "about"
+    "right-thing"
+    "out-services"
+    "meeting"
+    "get-know"
+    "business-market"
+    "footer";
+}
+.header {
+  grid-area: header;
+  /* border: 1px solid #000; */
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: auto;
+  grid-template-areas: "title menu";
+  justify-content: space-around;
+  position: static;
+  top: 0;
+  /* z-index: 1; */
+}
+
+.title {
+  grid-area: title;
+  /* border: 1px solid #000; */
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+.title h1 {
+  align-self: center;
+  justify-self: center;
+  padding: 4px;
+}
+.menu {
+  grid-area: menu;
+  /* border: 1px solid #000; */
+  padding: 8px;
+}
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.menu ul li {
+  padding: 8px;
+}
+.menu ul li a {
+  text-decoration: none;
+  font-size: 1.3em;
+  padding: 8px;
+  color: black;
+}
+.menu ul li a:hover {
+  background-color: black;
+  border-radius: 15px;
+  color: white;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.slider {
+  grid-area: slider;
+  /* border: 1px solid #000; */
+  background-image: url("./imgs/conf.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  position: relative;
+}
+.content-slider {
+  /* border: 1px solid #000; */
+  height: 55%;
+  width: 45%;
+  justify-content: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 12%;
+  left: 5%;
+}
+.content-slider h1 {
+  font-size: 4.7em;
+  color: rgb(96, 90, 48);
+}
+.content-slider p {
+  text-align: justify;
+  color: rgb(201, 175, 175);
+  font-size: 1.3em;
+  line-height: 1.2;
+  width: 85%;
+}
+.content-slider a {
+  margin-left: 8px;
+  margin-top: 20px;
+  text-decoration: none;
+  color: white;
+  width: 150px;
+  text-align: center;
+  padding: 9px;
+  height: 40px;
+  background-color: black;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.product-details {
+  grid-area: product-details;
+  /* border: 1px solid #000; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "qulity growth price";
+  justify-items: center;
+  justify-content: center;
+}
+.product-details h1 {
+  margin-top: 40px;
+  color: white;
+}
+.product-details p {
+  margin-top: 10px;
+  color: white;
+}
+.product-details .qulity {
+  grid-area: qulity;
+  /* border: 1px solid #000; */
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 25px;
+  background-color: black;
+}
+.product-details p {
+  margin-top: 10px;
+  color: white;
+}
+.product-details .growth {
+  /* border: 1px solid #000; */
+  grid-area: growth;
+  padding: 5px;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(96, 186, 216);
+  line-height: 25px;
+}
+.product-details .price p {
+  margin-top: 10px;
+  color: white;
+}
+.product-details .price {
+  grid-area: price;
+  /* border: 1px solid #000; */
+  padding: 5px;
+  justify-content: center;
+  text-align: center;
+  line-height: 25px;
+  background-color: rgb(70, 169, 202);
+}
+
+.about {
+  grid-area: about;
+  /* border: 1px solid #000; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+.about span {
+  font-size: 2.6em;
+  font-weight: 600;
+  /* border: 1px solid #000; */
+  margin-top: 80px;
+}
+.about p {
+  width: 40%;
+  margin: auto;
+  /* border: 1px solid #000; */
+  font-size: 1.2em;
+  margin-top: 25px;
+}
+.about a {
+  border: 1px solid #000;
+  margin-top: 30px;
+  font-size: 1.5em;
+  padding: 8px;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 90px;
+}
+.about a:hover {
+  padding: 8px;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.right-thing {
+  grid-area: right-thing;
+  /* border: 1px solid #000; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "thing-img thing-content";
+}
+.right-thing .thing-img {
+  grid-area: thing-img;
+  /* border: 1px solid #000; */
+  height: 500px;
+}
+.right-thing .thing-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.right-thing .thing-content {
+  grid-area: thing-content;
+  /* border: 1px solid #000; */
+  background-color: rgb(72, 175, 209);
+  padding: 8px;
+}
+.right-thing .thing-content h1 {
+  width: 60%;
+  margin: auto;
+  margin-top: 45px;
+  color: white;
+  font-size: 2.5em;
+}
+.right-thing .thing-content p {
+  width: 60%;
+  margin: auto;
+  line-height: 1.5;
+  margin-top: 25px;
+  font-size: 1.3em;
+  color: white;
+  padding: 2px;
+}
+
+.button-click {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  /* border: 1px solid #000; */
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+.button-click a {
+  /* border: 1px solid #000; */
+  padding: 10px;
+  font-size: 1.2em;
+  text-align: center;
+  width: 30%;
+  background-color: white;
+  color: rgb(44, 143, 213);
+  text-decoration: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.out-services {
+  grid-area: out-services;
+  /* border: 1px solid #000; */
+  width: 100%;
+  display: grid;
+  min-height: 500px;
+  gap: 15px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto min-content min-content 70px;
+  grid-template-areas:
+    "heading heading heading"
+    "ABC branding development"
+    "web-desgin social-media ecom"
+    "last-button last-button last-button";
+}
+
+.out-services .service-common {
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.out-services .service-common p {
+  width: 90%;
+  text-align: justify;
+  margin: auto;
+  /* border: 1px solid #000; */
+  font-size: 1.2em;
+  padding: 5px;
+  border: none;
+}
+.out-services .service-common h3 {
+  margin: auto;
+  justify-self: center;
+  align-self: center;
+  /* border: 1px solid #000; */
+  margin-top: 8px;
+  margin-bottom: 10px;
+  border: none;
+  font-size: 1.6em;
+  font-weight: 400;
+}
+.out-services .heading {
+  grid-area: heading;
+  padding: 8px;
+  /* border: 1px solid #000; */
+  width: 100%;
+  text-align: center;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.out-services .dev-img {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  /* border: 1px solid #000; */
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: rgb(72, 175, 209);
+  border: none;
+}
+.out-services .ABC {
+  grid-area: ABC;
+  /* border: 1px solid #000; */
+  /* justify-content: center; */
+  /* min-height: 200px; */
+}
+.out-services .branding {
+  grid-area: branding;
+  /* border: 1px solid #000; */
+}
+.out-services .development {
+  grid-area: development;
+  /* border: 1px solid #000; */
+}
+.out-services .web-desgin {
+  grid-area: web-desgin;
+  /* border: 1px solid #000; */
+}
+.out-services .social-media {
+  grid-area: social-media;
+  /* border: 1px solid #000; */
+}
+.out-services .ecom {
+  grid-area: ecom;
+  /* border: 1px solid #000; */
+}
+.out-services .last-button {
+  grid-area: last-button;
+  /* border: 1px solid #000; */
+  justify-content: center;
+  display: flex;
+  padding: 8px;
+  align-items: center;
+}
+.out-services .last-button a {
+  padding: 10px;
+  border: 1px solid #000;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 25px;
+}
+.out-services .last-button a:hover {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.meeting {
+  grid-area: meeting;
+  /* border: 1px solid #000; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "meeting-content meeting-img";
+}
+
+.meeting .meeting-content {
+  /* border: 1px solid #000; */
+  grid-area: meeting-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(228, 228, 228);
+}
+.meeting .meeting-content h1 {
+  font-size: 2em;
+  width: 50%;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.meeting .meeting-content p {
+  width: 60%;
+  text-align: justify;
+  padding: 8px;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+.meeting .meeting-content a {
+  margin-top: 15px;
+  font-size: 1.4em;
+  /*border: 1px solid #000;
+  */
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(72, 175, 209);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.meeting .meeting-content a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.meeting .meeting-img {
+  /* border: 1px solid #000; */
+  width: 100%;
+  height: 500px;
+  grid-area: meeting-img;
+  background-size: contain;
+}
+.meeting .meeting-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 765px) {
+  .container {
+    grid-template-rows: auto 40vh 250px auto auto auto auto auto 150px 80px;
+  }
+  .header {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto auto;
+    grid-template-areas: "title" "menu";
+    position: static;
+  }
+  .menu ul li {
+    padding: 1px;
+  }
+  .menu ul li a {
+    text-decoration: none;
+    font-size: 1em;
+    padding: 2px;
+  }
+  .content-slider {
+    width: 95%;
+    top: 15%;
+  }
+  .content-slider h1 {
+    font-size: 8vw;
+  }
+  .product-details {
+    grid-area: product-details;
+    /* border: 1px solid #000; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto 190px;
+    grid-template-areas: "qulity growth" "price price";
+  }
+  .about {
+    margin-top: 186px;
+  }
+  .about span {
+    font-size: 7vw;
+    margin-top: 10px;
+  }
+  .about a {
+    margin-bottom: 10px;
+  }
+  .about p {
+    width: 100%;
+    margin-top: 8px;
+  }
+  .right-thing {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "thing-img" "thing-content";
+  }
+  .out-services {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto min-content min-content min-content 70px;
+    grid-template-areas:
+      "heading heading"
+      "ABC branding"
+      "development web-desgin"
+      "social-media ecom"
+      "last-button last-button";
+  }
+  .meeting {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto auto;
+    grid-template-areas: "meeting-content" "meeting-img";
+  }
+  .meeting .meeting-content a {
+    margin-bottom: 25px;
+  }
+  .meeting .meeting-content h1 {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .meeting .meeting-content p {
+    width: 100%;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    grid-template-rows: auto 350px auto auto auto auto auto auto 150px 80px;
+  }
+  .header {
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "title"
+      "menu";
+    position: static;
+  }
+  .menu ul li a {
+    font-size: 3vw;
+    padding: 0;
+  }
+
+  .slider {
+    background-size: 70vh;
+  }
+
+  .content-slider {
+    top: 20%;
+    left: 0%;
+    width: 95%;
+  }
+  .content-slider h1 {
+    font-size: 4vw;
+    color: rgb(209, 0, 52);
+  }
+  .content-slider p {
+    color: rgb(207, 157, 77);
+    font-size: 1.2em;
+  }
+  .content-slider a {
+    background-color: white;
+    color: black;
+  }
+  .content-slider a:hover {
+    background-color: aqua;
+    color: black;
+  }
+  .content-slider p {
+    width: 100%;
+  }
+  .product-details {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "qulity" "growth" "price";
+  }
+  .product-details p {
+    margin-bottom: 40px;
+  }
+  .product-details .price p {
+    margin-bottom: 40px;
+  }
+  .about span {
+    font-size: 7vw;
+    margin-top: 10px;
+  }
+  .about p {
+    width: 100%;
+    margin-top: 8px;
+  }
+  .about a {
+    margin-bottom: 20px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+  .right-thing {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto auto;
+    grid-template-areas: "thing-img" "thing-content";
+  }
+  .right-thing .thing-content h1 {
+    width: 100%;
+    margin-top: 8px;
+  }
+  .right-thing .thing-content p {
+    width: 100%;
+  }
+  .button-click a {
+    width: 80%;
+  }
+  .out-services {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto min-content min-content min-content 70px;
+    grid-template-areas:
+      "heading heading"
+      "ABC branding"
+      "development web-desgin"
+      "social-media ecom"
+      "last-button last-button";
+  }
+  .meeting {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto auto;
+    grid-template-areas: "meeting-img" "meeting-content";
+  }
+  .meeting-content {
+    width: 100%;
+  }
+  .meeting-content h1 {
+    width: 100%;
+    font-size: 1.5em;
+    text-align: left;
+    margin-top: 15px;
+  }
+  .meeting .meeting-content {
+    align-items: flex-start;
+    justify-content: left;
+    text-align: justify;
+  }
+  .meeting .meeting-content p {
+    width: 100%;
+  }
+  .meeting .meeting-content a {
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 765px) and (max-width: 1390px) {
+  .header {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "title" "menu";
+    justify-content: space-around;
+    position: static;
+    top: 0;
+    /* z-index: 1; */
+  }
+  .menu ul li {
+    padding: 4px;
+  }
+  .menu ul li a {
+    padding: 4px;
+    font-size: 1.2em;
+  }
+  .right-thing {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto auto;
+    grid-template-areas: "thing-img" "thing-content";
+  }
+  .meeting {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto auto;
+    grid-template-areas: "meeting-content" "meeting-img";
+  }
+  .meeting .meeting-content h1 {
+    margin-top: 10px;
+  }
+  .meeting .meeting-content a {
+    margin-bottom: 25px;
+  }
+}
+
+.get-know {
+  grid-area: get-know;
+  border: 1px solid #000;
+}
+.business-market {
+  grid-area: business-market;
+  border: 1px solid #000;
+}
+.footer {
+  grid-area: footer;
+  border: 1px solid #000;
+}
