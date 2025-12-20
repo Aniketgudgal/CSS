@@ -94,7 +94,7 @@
 .content-slider {
   /* border: 1px solid #000; */
   height: 55%;
-  width: 45%;
+  width: 50%;
   justify-content: center;
   padding: 10px;
   display: flex;
@@ -485,6 +485,16 @@
   object-fit: cover;
 }
 
+@media only screen and (min-width:766px) and (max-width:890px) {
+  .container{
+     grid-template-rows: auto 60vh 250px auto auto auto auto auto 150px 80px;
+  } 
+  .content-slider {
+    width: 80%;
+    top: 0%;
+    height: 100%;
+  }
+}
 @media only screen and (min-width: 500px) and (max-width: 765px) {
   .container {
     grid-template-rows: auto 40vh 250px auto auto auto auto auto 150px 80px;
@@ -504,8 +514,9 @@
     padding: 2px;
   }
   .content-slider {
-    width: 95%;
+    width: 80%;
     top: 15%;
+    height: 65%;
   }
   .content-slider h1 {
     font-size: 8vw;
