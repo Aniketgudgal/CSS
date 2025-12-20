@@ -35,14 +35,18 @@ Testing recommendations:
 
 ## Screenshots
 
-Below are screenshots demonstrating the layout across different viewport sizes. Place your screenshot image files inside the `imgs/` folder with these names (or update the names below if different).
-
 ![Screenshot 1 — Home / large desktop](imgs/screen-1.png)
+
 ![Screenshot 2 — Desktop / product details](imgs/screen-2.png)
+
 ![Screenshot 3 — Tablet layout](imgs/screen-3.png)
+
 ![Screenshot 4 — Small tablet / large phone](imgs/screen-4.png)
+
 ![Screenshot 5 — Mobile portrait](imgs/screen-5.png)
+
 ![Screenshot 6 — Mobile landscape](imgs/screen-6.png)
+
 ![Screenshot 7 — Menu / navigation state](imgs/screen-7.png)
 
 If the images are present in the `imgs/` folder they will render here when viewing this README on GitHub or locally.
