@@ -58,9 +58,3 @@ Open `index.html` in a browser (File → Open File or drag into a browser window
 ## Live / Deployed
 
 This project is deployed at: https://responsive-design-dev.netlify.app/
-
-## Next steps
-
-- Add or name screenshots in `imgs/` as listed above if you want them embedded directly in this README.
-- Optionally add a brief CHANGELOG and contribution notes.
-
