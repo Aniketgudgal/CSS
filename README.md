@@ -45,13 +45,13 @@ Available layout folders
 The repository contains several example folders demonstrating Grid and Flex techniques. Key folders include:
 
 - **Grid examples:**
-   - [grid_template_1](/grid_template_1/img/grid_layout.png) — basic multi-area grid demo (header, slider, content blocks, footer).
-   - [grid_template_3](/grid_template_3/img/screenshort-1.png) — contact/hero layout using named grid areas and a two-column contact section.
-   - [grid_template_4](/grid_template_4/img/screenshort-1.png) — one-column grid with nested header grid and hero background.
+   - [grid_template_1](/grid_template_1/README.md) — basic multi-area grid demo (header, slider, content blocks, footer).
+   - [grid_template_3](/grid_template_3/README.md) — contact/hero layout using named grid areas and a two-column contact section.
+   - [grid_template_4](/grid_template_4/README.md) — one-column grid with nested header grid and hero background.
 
 - **Flex examples:**
-   - [Layout_Design_In_Flex](/Layout_Design_In_Flex/img/screenshort-1.png) — multi-band page demonstrating nested flex containers and article cards.
-   - [Layout_design](/Layout_design/img/login-1.png) — additional flex-based examples and page components.
+   - [Layout_Design_In_Flex](/Layout_Design_In_Flex/README.md) — multi-band page demonstrating nested flex containers and article cards.
+   - [Layout_design](/Layout_design/README.md) — additional flex-based examples and page components.
 
 Each example folder contains an `index.html`, stylesheets (usually in a `css/` folder), and images in an `img/` folder. Open the folder and view `index.html` in a browser (or use Live Server) to preview.
 
