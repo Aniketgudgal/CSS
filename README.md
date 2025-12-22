@@ -53,7 +53,7 @@ The repository contains several example folders demonstrating Grid and Flex tech
    - [Layout_Design_In_Flex](Layout_Design_In_Flex) — multi-band page demonstrating nested flex containers and article cards. Readme: [Layout_Design_In_Flex/README.md](Layout_Design_In_Flex/README.md)
    - [Layout_design](Layout_design) — additional flex-based examples and page components. Readme: [Layout_design/README.md](Layout_design/README.md)
 
- - [Responsive design](Layout_design) — one-column grid with nested header grid and hero background. Readme: [Responsive Layout](Responsive Layout/README.md)
+ - [Responsive design](Responsive_Layout) — one-column grid with nested header grid and hero background. Readme: [Responsive Layout](Responsive_Layout/README.md)
 
 Each example folder contains an `index.html`, stylesheets (usually in a `css/` folder), and images in an `img/` folder. Open the folder and view `index.html` in a browser (or use Live Server) to preview.
 
