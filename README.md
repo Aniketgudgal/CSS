@@ -35,8 +35,30 @@ github_UI_CSS/
 - Responsive card layouts
 - Navigation bars (sticky, dropdown)
 - Grid-based designs
+- Flexbox-based layouts
 - Forms with styling
 - Hero sections
+
+Available layout folders
+------------------------
+
+The repository contains several example folders demonstrating Grid and Flex techniques. Key folders include:
+
+- **Grid examples:**
+   - [grid_template_1](/grid_template_1/img/grid_layout.png) — basic multi-area grid demo (header, slider, content blocks, footer).
+   - [grid_template_3](/grid_template_3/img/screenshort-1.png) — contact/hero layout using named grid areas and a two-column contact section.
+   - [grid_template_4](/grid_template_4/img/screenshort-1.png) — one-column grid with nested header grid and hero background.
+
+- **Flex examples:**
+   - [Layout_Design_In_Flex](/Layout_Design_In_Flex/img/screenshort-1.png) — multi-band page demonstrating nested flex containers and article cards.
+   - [Layout_design](/Layout_design/img/) — additional flex-based examples and page components.
+
+Each example folder contains an `index.html`, stylesheets (usually in a `css/` folder), and images in an `img/` folder. Open the folder and view `index.html` in a browser (or use Live Server) to preview.
+
+Adding screenshots
+------------------
+
+Many examples include preview images in their `img/` folders and README files. If you want me to add or replace screenshots for specific examples, tell me which folder(s) and provide the image(s) or confirm that placeholders are acceptable.
 
 ## Contributing
 - Report bugs or suggest improvements via Issues

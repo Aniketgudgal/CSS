@@ -64,7 +64,7 @@ body
 }
 .container .form-data table
 {
-    width: 60%;
+    width: 100%;
      min-height: 550px;
     margin: auto;
     border-collapse: collapse;
