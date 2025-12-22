@@ -51,7 +51,7 @@ The repository contains several example folders demonstrating Grid and Flex tech
 
 - **Flex examples:**
    - [Layout_Design_In_Flex](/Layout_Design_In_Flex/img/screenshort-1.png) — multi-band page demonstrating nested flex containers and article cards.
-   - [Layout_design](/Layout_design/img/) — additional flex-based examples and page components.
+   - [Layout_design](/Layout_design/img/login-1.png) — additional flex-based examples and page components.
 
 Each example folder contains an `index.html`, stylesheets (usually in a `css/` folder), and images in an `img/` folder. Open the folder and view `index.html` in a browser (or use Live Server) to preview.
 
