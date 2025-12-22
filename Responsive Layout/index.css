@@ -5,7 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html {
+  scroll-behavior:smooth;
+}
 h1 {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
@@ -52,7 +54,6 @@ p {
   /* z-index: 1; */
 }
 
-
 .title {
   grid-area: title;
   /* border: 1px solid #000; */
@@ -97,7 +98,6 @@ p {
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
 }
-
 
 .slider {
   grid-area: slider;
@@ -641,34 +641,27 @@ p {
   font-size: 1.6em;
   font-weight: 400;
 }
-@media only screen and (min-width: 250px) and (max-width:450px) {
-  .menu
-  {
+@media only screen and (min-width: 250px) and (max-width: 450px) {
+  .menu {
     display: none;
   }
-  .content-slider
-  {
+  .content-slider {
     top: 0;
   }
-  .about a
-  {
+  .about a {
     font-size: 1.2em;
   }
-  .right-thing .thing-content h1
-  {
+  .right-thing .thing-content h1 {
     width: 100%;
-  line-height: 1.3;
+    line-height: 1.3;
   }
-  .heading h1
-  {
+  .heading h1 {
     margin-bottom: 15px;
   }
-  .business-market
-  {
+  .business-market {
     gap: 50px;
   }
-  .business-market .business-btn a
-  {
+  .business-market .business-btn a {
     font-size: 2em;
   }
 }
@@ -823,20 +816,17 @@ p {
     margin: auto;
     margin-bottom: 40px;
   }
-  .business-market .business-content p
-  {
+  .business-market .business-content p {
     width: 70%;
   }
-  .business-market .business-btn a
-  {
+  .business-market .business-btn a {
     font-size: 0.8em;
     padding: 14px;
   }
   .footer span {
-  font-size: 1em;
+    font-size: 1em;
+  }
 }
-}
-
 
 @media only screen and (min-width: 766px) and (max-width: 890px) {
   .container {
@@ -858,8 +848,8 @@ p {
     border-bottom: 1px solid rgb(230, 227, 227);
   }
   .business-market {
-  gap: 140px;
-}
+    gap: 140px;
+  }
 }
 @media only screen and (min-width: 500px) and (max-width: 765px) {
   .container {
