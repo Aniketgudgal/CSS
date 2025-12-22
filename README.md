@@ -30,6 +30,8 @@ github_UI_CSS/
 3. Preview designs:
    - Install **Live Server** extension
    - Right-click HTML file → "Open with Live Server"
+4. Deployed demo:
+   - https://responsive-design-dev.netlify.app/
 
 ## Layout Examples
 - Responsive card layouts
