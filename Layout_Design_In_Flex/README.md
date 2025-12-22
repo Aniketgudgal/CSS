@@ -1,9 +1,4 @@
 
-Responsive behavior
--------------------
-
-- The layout relies on flexible widths and `flex-wrap` so it responds naturally to viewport width changes.
-- Media queries in `css/layout_1.css` adjust `flex-basis`, paddings, and font sizes to improve readability on smaller screens (e.g., switching from three columns to one column under ~700px).
 # Layout Design in Flex
 
 ![Layout preview — wide view](img/screenshort-1.png)
