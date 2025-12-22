@@ -52,6 +52,8 @@ Responsive behavior
 
 ![Layout preview — stacked view](img/screenshort-2.png)
 
+![Layout preview — stacked view](img/stretch.png)
+
 Overview
 --------
 
