@@ -28,6 +28,16 @@ Responsive behavior
 
 - Media queries reduce the header height and switch its internal grid to two rows on narrow viewports (`max-width: 400px`), and adjust the hero background sizing to `contain` and a smaller height.
 
+Media queries (what was added)
+-----------------------------
+
+- Breakpoint: `@media screen and (max-width: 400px)` — the header grid is redefined to two rows using `grid-template-areas: "logo icons-right" "menu-1 menu-1"` so the navigation stacks beneath the logo and icons for better mobile usability.
+- Header adjustments: the `.header` internal grid switches to `grid-template-columns: repeat(2, 1fr)` and the `.menu-1 ul` switches to a column direction so menu items stack vertically.
+- Hero adjustments: `.text-content` uses `background-size: contain` and a reduced height (`height: 40vh`) at the breakpoint to keep the banner visible without pushing content off-screen.
+- Accessibility note: when stacking the menu, ensure focus order and tap targets remain large enough (use larger `font-size` or `padding` on the menu links) to improve touch usability.
+
+If you want, I can paste the exact media query block from `index.css` into this README for reference.
+
 Customization
 -------------
 
