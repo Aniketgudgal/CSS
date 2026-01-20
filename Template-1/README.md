@@ -930,11 +930,11 @@ The main container uses a sophisticated CSS Grid layout:
 
 ### Screenshot 2 - About Section
 ![Home Section](./img/screenshort-2.png)
-*Hero section with headline, CTA buttons, and statistics cards*
+*Section with headline, CTA buttons, and statistics cards*
 
 ### Screenshot 3 - Home with Revenue Widget
 ![Revenue Widget](./img/screenshort-3.png)
-*Hero image with floating revenue growth widget displaying +45%*
+*Image with floating revenue growth widget displaying +45%*
 
 ### Screenshot 4 - Services Section
 ![About Section](./img/screenshort-4.png)
