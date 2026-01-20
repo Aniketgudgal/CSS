@@ -240,13 +240,13 @@ background-color: #f2efef;  /* Change section background */
 ### Screenshot 1 - Header & Navigation
 ![Header Navigation](./img/screenshort-1.png)
 
-### Screenshot 2 - Home Section
+### Screenshot 2 - About Section
 ![Home Section](./img/screenshort-2.png)
 
 ### Screenshot 3 - Home with Revenue Widget
 ![Revenue Widget](./img/screenshort-3.png)
 
-### Screenshot 4 - About Section
+### Screenshot 4 - Services Section
 ![About Section](./img/screenshort-4.png)
 
 ### Screenshot 5 - Services Section
