@@ -928,7 +928,7 @@ The main container uses a sophisticated CSS Grid layout:
 ![Header Navigation](./img/screenshort-1.png)
 *Sticky header with navigation menu and hover effects*
 
-### Screenshot 2 - Home Section
+### Screenshot 2 - About Section
 ![Home Section](./img/screenshort-2.png)
 *Hero section with headline, CTA buttons, and statistics cards*
 
@@ -936,7 +936,7 @@ The main container uses a sophisticated CSS Grid layout:
 ![Revenue Widget](./img/screenshort-3.png)
 *Hero image with floating revenue growth widget displaying +45%*
 
-### Screenshot 4 - About Section
+### Screenshot 4 - Services Section
 ![About Section](./img/screenshort-4.png)
 *About us section with team image, award badge, and company statistics*
 
