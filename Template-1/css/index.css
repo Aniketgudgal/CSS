@@ -15,18 +15,13 @@ html
   display: grid;
   position: relative;
   grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: 80px 90vh auto auto 100vh auto auto auto auto auto;
+  grid-template-rows: 80px 90vh auto auto 100vh;
   grid-template-areas:
     "header"
     "home"
     "about"
     "services"
-    "why-us"
-    "portfolio"
-    "team"
-    "testimonials"
-    "contact"
-    "footer";
+    "why-us";
 }
 .header {
   grid-area: header;
@@ -78,6 +73,18 @@ html
 }
 .menu ul li a:hover {
   color: black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 15px;
+  transition: 0.5s;
+  padding: 12px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 .home {
   grid-area: home;
@@ -817,6 +824,23 @@ grid-area: team-building;
   font-size: 1.1em;
   margin-bottom: 25px;
 }
+.shallo
+{
+  transition: all 0.10s;
+  -webkit-transition: all 0.10s;
+  -moz-transition: all 0.10s;
+  -ms-transition: all 0.10s;
+  -o-transition: all 0.10s;
+}
+.shallo:hover
+{
+ box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+ transition: all 0.10s;
+ -webkit-transition: all 0.10s;
+ -moz-transition: all 0.10s;
+ -ms-transition: all 0.10s;
+ -o-transition: all 0.10s;
+}
 .why-us .leader
 {
 grid-area: leader;
@@ -832,24 +856,4 @@ grid-area: support;
 .why-us .cost
 {
 grid-area: cost;
-}
-.portfolio {
-  grid-area: portfolio;
-  border: 1px solid #000;
-}
-.team {
-  grid-area: team;
-  border: 1px solid #000;
-}
-.testimonials {
-  grid-area: testimonials;
-  border: 1px solid #000;
-}
-.contact {
-  grid-area: contact;
-  border: 1px solid #000;
-}
-.footer {
-  grid-area: footer;
-  border: 1px solid #000;
 }
