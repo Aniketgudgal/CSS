@@ -23,6 +23,7 @@ html {
     "services"
     "why-us";
 }
+
 .header {
   grid-area: header;
   /* border: 1px solid #000; */
@@ -281,6 +282,7 @@ html {
   font-size: 1em;
   color: #848587;
 }
+
 .about {
   grid-area: about;
   /* border: 1px solid #000; */
@@ -291,6 +293,7 @@ html {
     "about-us about-us"
     "content  meeting-img";
 }
+
 .about .about-us {
   grid-area: about-us;
   width: 100%;
@@ -905,7 +908,57 @@ html {
   }
 }
 
+@media (min-width: 769px) and (max-width: 1200px) { 
+.container {
+   grid-template-rows: 80px min-content min-content min-content min-content;
+}
+  .home {
+    flex-direction: column;
+  }
+  .home .business-img img{
+    width: 99%;
+  }
+  .business-img .revenue{
+    width: 25%;
+  }
+.about {
+  grid-template-rows: min-content min-content;
+}
+.about .about-us p{
+  font-size: 0.9em;
+}
+.about .content p{
+  font-size: 1em;
+}
+.cilent-info .info span
+{
+  font-size: 1.4em;
+}
+.btn-meet{
+  width: 45%;
+  height: 10%;
+}
+.btn-meet a {
+  font-size: 1em;
+}
+.about .award-winning{
+  width: 48%;
+  height: 20%;
+}
+.award-winning .content-award h3 {
+  font-size: 1.3em;
+}
+.award-winning .content-award p {
+  font-size: 1em;
+}
 
+.services{
+    grid-template-rows: min-content min-content;
+}
+.why-us {
+  grid-template-rows: auto min-content min-content min-content;
+}
+}
 
 @media only screen and (max-width: 768px) {
   .container {
